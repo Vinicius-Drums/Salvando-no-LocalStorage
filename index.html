@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="icon" type="image/x-icon" href="Imagem/Lista.png" />
+    <script type="module" src="app.js"></script>
+    <title>Lista de Atividades</title>
+  </head>
+  <body>
+    <div id="app-container">
+      <hr />
+      <h1>Lista de Atividades</h1>
+
+      <form id="form-atividade">
+        <div id="adicione">
+          <input
+            type="text"
+            name="atividade"
+            id="campo-atividade"
+            placeholder="Digite uma atividade"
+          />
+
+          <button type="button" id="botao-adicionar">Adicionar</button>
+        </div>
+      </form>
+
+      <span id="contador-tarefas">Número de tarefas: 0</span>
+
+      <ul id="lista">
+        <!-- Itens da lista serão adicionados dinamicamente aqui -->
+      </ul>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+html,
+body,
+div {
+  margin: 10px;
+  padding: 0;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: radial-gradient(#2ecc71, #62dd9b);
+  text-align: center;
+}
+
+#app-container {
+  margin: auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.linha {
+  border-top: 1px solid #070707;
+  margin: 10px 0;
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+}
+
+#adicione {
+  display: flex;
+  gap: 10px;
+}
+
+#campo-atividade {
+  flex-grow: 1;
+}
+
+#botao-adicionar {
+  flex-grow: 1;
+  border-radius: 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #ddd1d1;
+  border: 2px solid #62dd9b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.trash {
+  border-radius: 10px;
+  background: radial-gradient(#2ecc71, #62dd9b);
+  color: white;
+  cursor: pointer;
+}
+
+.concluido {
+  text-decoration: line-through;
+}
